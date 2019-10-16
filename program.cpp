@@ -2,6 +2,11 @@
 
 using namespace std;
 
+int drawRoof(int x, int y)
+{
+    return 0;
+}
+
 int main()
 {
     cout << "\n";
@@ -9,10 +14,10 @@ int main()
     int a = 10;
     int b = 20;
 
-    cout << "Podaj ilosc wierszy: ";
+    cout << "Podaj wysokosc domu: ";
     cin >> a;
 
-    cout << "Podaj ilosc kolumn: ";
+    cout << "Podaj szerokosc domu: ";
     cin >> b;
 
     cout << "\n";
